@@ -74,7 +74,7 @@ class LaporanController extends Controller
         });
 
          $datasheet = array();
-         $datasheet[0]  =   array("NO", "TITLE", "ID MOVIE", "Film By",  "Studio","Date Realase","Stock", "Stack");
+         $datasheet[0]  =   array("NO", "TITLE", "ID MOVIE", "Film By",  "Studio","Date Realase","Stock","Harga Beli/Sewa","Harga Jual", "Stack");
          $i=1;
 
         foreach ($datas as $data) {

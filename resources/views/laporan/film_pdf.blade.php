@@ -82,6 +82,12 @@
                             Stock
                           </th>
                           <th>
+                            Harga Beli/Sewa
+                          </th>
+                          <th>
+                            Jual
+                          </th>
+                          <th>
                             Stack
                           </th>
                         </tr>
@@ -109,6 +115,12 @@
                           </td>
                           <td>
                             {{$data->stok}}
+                          </td>
+                          <td>
+                          {{$data->sewa}}
+                          </td>
+                          <td>
+                          {{$data->jual}}
                           </td>
                           <td>
                             {{$data->lokasi}}

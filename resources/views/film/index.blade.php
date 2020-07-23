@@ -105,10 +105,10 @@
                             {{$data->stok}}
                           </td>
                           <td>
-                          
+                          {{$data->sewa}}
                           </td>
                           <td>
-                           
+                          {{$data->jual}}
                           </td>
                           <td>
                             {{$data->lokasi}}

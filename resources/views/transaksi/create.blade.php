@@ -191,8 +191,8 @@
                                     <td>{{$data->filmby}}</td>
                                     <td>{{$data->tahun}}</td>
                                     <td>{{$data->stok}}</td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>{{$data->sewa}}</td>
+                                    <td>{{$data->jual}}</td>
                                 </tr>
                                 @endforeach
                             </tbody>
